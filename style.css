@@ -9,6 +9,24 @@ table{
     margin: 5% 40%;
 }
 
+@media screen and (max-width: 1024px){
+    table{
+        margin: 5% 32%;
+    }   
+}
+
+@media screen and (max-width: 770px){
+    table{
+        margin: 5% 28%;
+    }   
+}
+
+@media screen and (max-width: 550px){
+    table{
+        margin: 5% 10%;
+    }
+}
+
 .display{
     display: flex;
     flex-direction: row-reverse;
